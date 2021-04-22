@@ -12,7 +12,7 @@ const FilmList = (props) => {
       {props.isLoading ? (
         <div className="loader"> Loading..</div>
       ) : (
-        <h1>Official Studio Ghibli Film List</h1>
+        <h1>Studio Ghibli Film List</h1>
       )}
       {props.error ? <p>{props.error}</p> : null}
       {props.data.map((film) => (
